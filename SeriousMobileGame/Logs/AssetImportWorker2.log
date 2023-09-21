@@ -15,7 +15,7 @@ C:/Users/u1271027/Documents/GitHub/RapidPrototypeSeriousGame/SeriousMobileGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-58877
+64264
 Successfully changed project path to: C:/Users/u1271027/Documents/GitHub/RapidPrototypeSeriousGame/SeriousMobileGame
 C:/Users/u1271027/Documents/GitHub/RapidPrototypeSeriousGame/SeriousMobileGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/u1271027/Documents/GitHub/RapidPrototypeSeriousGame/SeriousMobileGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17728] Host "[IP] 155.98.167.102 [Port] 0 [Flags] 2 [Guid] 3517103727 [EditorId] 3517103727 [Version] 1048832 [Id] WindowsEditor(7,eae-z490-002) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19196] Host "[IP] 155.98.167.102 [Port] 0 [Flags] 2 [Guid] 204431165 [EditorId] 204431165 [Version] 1048832 [Id] WindowsEditor(7,eae-z490-002) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17728] Host "[IP] 155.98.167.102 [Port] 0 [Flags] 2 [Guid] 3517103727 [EditorId] 3517103727 [Version] 1048832 [Id] WindowsEditor(7,eae-z490-002) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19196] Host "[IP] 155.98.167.102 [Port] 0 [Flags] 2 [Guid] 204431165 [EditorId] 204431165 [Version] 1048832 [Id] WindowsEditor(7,eae-z490-002) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005141 seconds.
-- Loaded All Assemblies, in  0.265 seconds
+Registered in 0.005277 seconds.
+- Loaded All Assemblies, in  0.297 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.203 seconds
-Domain Reload Profiling: 467ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.215 seconds
+Domain Reload Profiling: 511ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (104ms)
-		LoadAssemblies (79ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (102ms)
-				TypeCache.ScanAssembly (92ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (106ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (203ms)
+	FinalizeReload (215ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (155ms)
+		SetupLoadedEditorAssemblies (166ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 467ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.500 seconds
-Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -129,48 +129,133 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 998ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1117ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (313ms)
-		LoadAssemblies (224ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (260ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (125ms)
-				TypeCache.ScanAssembly (112ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (500ms)
+	FinalizeReload (550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
+		SetupLoadedEditorAssemblies (396ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (263ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5134 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 79 unused Assets / (356.9 KB). Loaded Objects now: 5580.
-Memory consumption went from 197.4 MB to 197.1 MB.
-Total: 3.385700 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.353200 ms MarkObjects: 2.543400 ms  DeleteObjects: 0.161400 ms)
+Unloading 5136 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (355.9 KB). Loaded Objects now: 5582.
+Memory consumption went from 198.6 MB to 198.2 MB.
+Total: 3.278200 ms (FindLiveObjects: 0.373800 ms CreateObjectMapping: 0.418900 ms MarkObjects: 2.314100 ms  DeleteObjects: 0.170400 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11172.437155 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Dark Green.mat
+  artifactKey: Guid(d2fd0fd7f230ce14d89e18fb555b7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Dark Green.mat using Guid(d2fd0fd7f230ce14d89e18fb555b7469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf9e219ea4d3831689605f7af8219b8') in 0.626351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall2_Base_color.png
+  artifactKey: Guid(9d65b1540bd55dc4ab02643e09524306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall2_Base_color.png using Guid(9d65b1540bd55dc4ab02643e09524306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d9042d821cb94ab57875f81f24a6f2') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Arrows.mat
+  artifactKey: Guid(08d0ccc4a501e6645be0c3ee36d0cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Arrows.mat using Guid(08d0ccc4a501e6645be0c3ee36d0cd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc60c52238d16d3e86c1899191a8c390') in 0.257905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Concrete Blue.mat
+  artifactKey: Guid(895b038bf03adba4c951968630c6032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Concrete Blue.mat using Guid(895b038bf03adba4c951968630c6032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fbe1c1f5fdae52cf01e7eea36797db') in 0.015043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Frosted_Glass_Pattern_AlbedoTransparency.png
+  artifactKey: Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Frosted_Glass_Pattern_AlbedoTransparency.png using Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d79f5d495adbb8439b86f808108c96d') in 0.019719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Concrete_Albedo.tif
+  artifactKey: Guid(5803a7cd377fea04dbb2916a5d373150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Concrete_Albedo.tif using Guid(5803a7cd377fea04dbb2916a5d373150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a908a2b8bb14de2c7a491d07745f5d') in 0.017183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.620886 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall2_Normal_OpenGL.png
+  artifactKey: Guid(b9adf7a4adc3785428265de3303e0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall2_Normal_OpenGL.png using Guid(b9adf7a4adc3785428265de3303e0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ffc191e8e1595d5142ce8fa2fd20da') in 0.025472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall_Roughness.png
+  artifactKey: Guid(b1a09457a5f564242aa47053fd75497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wall_Roughness.png using Guid(b1a09457a5f564242aa47053fd75497f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af00a309810961277c9d27cc3ae9788') in 0.018269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.2 KB). Loaded Objects now: 5713.
+Memory consumption went from 101.0 MB to 100.7 MB.
+Total: 4.228800 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.360600 ms MarkObjects: 3.443500 ms  DeleteObjects: 0.055500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -186,65 +271,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9013.654360 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings 3.asset
-  artifactKey: Guid(032297cefaf15dc42b0efe98bd16bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings 3.asset using Guid(032297cefaf15dc42b0efe98bd16bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a7265f1425410e74c2cf588e59ba88') in 0.011405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+  Time since last request: 346.035297 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bd2b3eabcccd8140ee2cfa48816dcf') in 0.018869 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 30.449804 seconds.
+  Time since last request: 0.000687 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Test2.mat
+  artifactKey: Guid(e712f0f60d4c67d4ebf04be8284c245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Test2.mat using Guid(e712f0f60d4c67d4ebf04be8284c245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecf0658b6a6f1322382d7bac8d14980') in 0.006495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph
+  artifactKey: Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph using Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7895d2791f4b836af9c47efbfd6248c3') in 0.006650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 152.052152 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55341ec5860010f0ca35f6ccf653991a') in 0.402187 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph
+  artifactKey: Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph using Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f1a3e4a4c626da9db1571f4c7fd13e') in 0.009003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.712241 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf28db943a1a31c2b3bffcf6b1dba5b') in 0.070101 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 113.041223 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/FauxBackgroundBlur.mat
+  artifactKey: Guid(7095bbf67c8069448a5131a144a21d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/FauxBackgroundBlur.mat using Guid(7095bbf67c8069448a5131a144a21d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c803f8c2576a1a3cc38dc25124c83') in 0.011537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.927405 seconds.
   path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat
   artifactKey: Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat using Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3d6e30e308a2c3cd7f2b26243d1d0c') in 0.594268 seconds
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat using Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d8672a87c2eef3b98dc702a5c4d3cd') in 0.013456 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/slash pattern.png
-  artifactKey: Guid(858aec3a657f44d4996fb0ec9b291d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/slash pattern.png using Guid(858aec3a657f44d4996fb0ec9b291d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb135599363cd6331dbd6154ab0cb7c') in 0.028960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+  Time since last request: 375.628360 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa2696ada095dadaedf09a414b608c4') in 0.018258 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Lighting.hlsl
-  artifactKey: Guid(a48998c951051b84b94c9f3b26bb42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Lighting.hlsl using Guid(a48998c951051b84b94c9f3b26bb42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f69b69b20e2426b6c17a8d244ae4f9') in 0.001117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wave pattern.png
-  artifactKey: Guid(bd1b56d0c8d402a4fb90c8086223f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/wave pattern.png using Guid(bd1b56d0c8d402a4fb90c8086223f804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7c3bfc68faece46fa5b03644da09a7') in 0.033733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/ToonBody.mat
-  artifactKey: Guid(3c5a7b83ead2e70458ef006f2b0945b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/ToonBody.mat using Guid(3c5a7b83ead2e70458ef006f2b0945b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508d2a2e33e0c57887b3c3bfb981f9e8') in 0.014035 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph
+  artifactKey: Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph using Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f609195b3d47d9b2c9044970635fcf') in 0.006355 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Outline Material.mat
-  artifactKey: Guid(fc011a8aa82e94a459c59778ebc06fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Outline Material.mat using Guid(fc011a8aa82e94a459c59778ebc06fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e08721918dabc7c5d7920412f5438f1') in 0.650034 seconds
+  Time since last request: 30.610158 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e66e3b1f40104ba8ddf1cbd1af4f20') in 0.012774 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph
+  artifactKey: Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph using Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667c3c029abc8ca17b6fd36c16534c90') in 0.005372 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 74.349598 seconds.
-  path: Assets/Art/Sprites/joseph-lavoie-texture-gazon.jpg
-  artifactKey: Guid(62f1cf1e89bfa004ab34ab34e42f73c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Sprites/joseph-lavoie-texture-gazon.jpg using Guid(62f1cf1e89bfa004ab34ab34e42f73c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4436ffb75c3e5e59c62942a627ef2f') in 0.014883 seconds
+  Time since last request: 86.015951 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e40123baccf3501952270bf1656250') in 0.160919 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph
+  artifactKey: Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Shader.shadergraph using Guid(dc4e027f0c7775a4b8e0381c9b3ea42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba1e344a3da19108e9761b32f4a8598') in 0.010668 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 177.570510 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat
+  artifactKey: Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel 2.mat using Guid(1709966433444154d89ea5207d0642a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28719a90354402b8452901d622a412e9') in 0.158524 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Toon Material.mat
+  artifactKey: Guid(3e5820bf80a65f8419d2017fdcb75816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Toon Material.mat using Guid(3e5820bf80a65f8419d2017fdcb75816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0938c66909b1d9430d1518a8621dbff') in 0.011996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.626605 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat
+  artifactKey: Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat using Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa924200b955183b899ff3849342891') in 0.011381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 63.280338 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat
+  artifactKey: Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat using Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5b77b70683fad6ec91176823b74a17') in 0.014150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 44.792701 seconds.
+  path: Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat
+  artifactKey: Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hongyi(Ricky)/Hongyi(Ricky) Assests/Shader/Cel Material.mat using Guid(e45435f4c1c816e40b352c7192450f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afa2e902a442143c13f426363ed74da') in 0.013384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
