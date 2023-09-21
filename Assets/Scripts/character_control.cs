@@ -46,14 +46,12 @@ public class character_control : MonoBehaviour
     private void change_rotation()
     {
         cur_euler_y += horizontal_rotate_speed * rect_transform.localPosition.x * Time.deltaTime;
-        Debug.Log(rect_transform.localPosition.x);
         transform.localRotation = Quaternion.Euler(0, cur_euler_y, 0);
     }
 
     private void change_velocity()
     {
         character_velocity += accelerate_rate * rect_transform.localPosition.y * Time.deltaTime;
-        Debug.Log(rect_transform.localPosition.y);
     }
 
     private void turn_left()
