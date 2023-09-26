@@ -6,6 +6,7 @@ public class DeerController : MonoBehaviour {
 
 
     [SerializeField] private float movementSpeed = 10f;
+    [SerializeField] private float foliageMovementMultiplier = 0.8f;
     [SerializeField] private float rotationSpeed = 180f;
     [SerializeField] private float jumpPower = 250f;
     [SerializeField] private float jumpCooldown = 1f;
@@ -13,6 +14,7 @@ public class DeerController : MonoBehaviour {
 
     private float tilt;
     private float jumpTimer = 0f;
+    private float movementMultiplier = 1f;
 
     private Vector2 startTouchPosition;
     private Vector2 endTouchPosition;
@@ -39,7 +41,7 @@ public class DeerController : MonoBehaviour {
             //Debug.Log(touchPositionNormalized.y - 0.15f);
 
             if (touchPositionNormalized.x > .8f) {
-                Vector3 movement = transform.forward * movementSpeed * (touchPositionNormalized.y - 0.15f) * 2 * Time.deltaTime;
+                Vector3 movement = transform.forward * movementSpeed * movementMultiplier * (touchPositionNormalized.y - 0.15f) * 2 * Time.deltaTime;
 
                 deerRigidBody.MovePosition(deerRigidBody.position + movement);
             }
@@ -89,5 +91,19 @@ public class DeerController : MonoBehaviour {
 
         }
 
+    }
+
+
+
+    private void OnTriggerEnter(Collider collider) {
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Foliage")) {
+            movementMultiplier = foliageMovementMultiplier;
+        }
+    }
+
+    private void OnTriggerExit(Collider collider) {
+        if (collider.gameObject.layer == LayerMask.NameToLayer("Foliage")) {
+            movementMultiplier = 1f;
+        }
     }
 }
