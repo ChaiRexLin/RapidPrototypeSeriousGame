@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Chai/MainMenu.unity
+    guid: bebd36f4db6c5fe4fbdf65d6c1c7d460
+  - enabled: 1
+    path: Assets/Scenes/Chai/GameScene.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/Scenes/Chai/LoadingScene.unity
+    guid: e6fe2fbd9f9254449b965dd4cf4ca995
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 1844b4b4990348f4a966c4846612d171, type: 2}
