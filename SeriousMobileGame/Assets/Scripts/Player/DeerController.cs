@@ -32,6 +32,11 @@ public class DeerController : MonoBehaviour {
         Quaternion targetRotation = Quaternion.Euler(0, tilt, 0);
         deerRigidBody.rotation = Quaternion.Lerp(deerRigidBody.rotation, targetRotation, Time.deltaTime);
 
+        if (jumpTimer < jumpCooldown)
+        {
+            jumpTimer += Time.deltaTime;
+            return;
+        }
 
         // touch
         if (Input.touchCount > 0 ) {
@@ -68,10 +73,6 @@ public class DeerController : MonoBehaviour {
             }
 
             //swipe
-            if (jumpTimer < jumpCooldown) {
-                jumpTimer += Time.deltaTime;
-                return;
-            }
 
             for (int i = 0; i < Input.touchCount; i++) {
                 Touch jumpTouch = Input.GetTouch(i);
