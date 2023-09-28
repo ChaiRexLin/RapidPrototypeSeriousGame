@@ -37,7 +37,7 @@ public class CarHandler : MonoBehaviour {
             carTimer += Time.deltaTime;
             return;
         }
-        int lane = Random.Range(0, num_of_lane);
+        int lane = currentAmountOfCars % num_of_lane;
         carArray[currentAmountOfCars] = Instantiate(carPrefab, startTransforms[lane].transform.position, startTransforms[lane].transform.rotation);
         carArray[currentAmountOfCars].GetComponent<CarMovement>().startTransform = startTransforms[lane].transform;
         carArray[currentAmountOfCars].GetComponent<CarMovement>().endTransform = endTransforms[lane].transform;
