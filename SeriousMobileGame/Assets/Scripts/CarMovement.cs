@@ -10,11 +10,13 @@ public class CarMovement : MonoBehaviour
     public Transform endTransform;
     private float curSpeed;
     private int mask;
+    private float slowTimer;
 
     [SerializeField] private float carSpeed = 25f;
     [SerializeField] private float detectDistance = 50f;
     [SerializeField] private float slowRate = 20f;
     [SerializeField] private float acceleRate = 15f;
+    [SerializeField] private float slowDuration = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,8 +34,15 @@ public class CarMovement : MonoBehaviour
         Debug.DrawRay(transform.position, transform.forward * detectDistance, Color.yellow);
         if (Physics.Raycast(transform.position, transform.forward, out hit, detectDistance, mask))
         {
+            slowTimer = slowDuration;
             curSpeed -= slowRate * Time.deltaTime;
             if (curSpeed < 0f) { curSpeed = 0f; }
+        }
+        else if (slowTimer > 0f)
+        {
+            curSpeed -= slowRate * Time.deltaTime;
+            if (curSpeed < 0f) { curSpeed = 0f; }
+            slowTimer -= Time.deltaTime;
         }
         else
         {
