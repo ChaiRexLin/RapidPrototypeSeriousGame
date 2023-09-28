@@ -8,10 +8,13 @@ public class GameStateManager : MonoBehaviour {
 
     public event EventHandler OnStateChanged;
 
+    [SerializeField] private float waitingToStartTimer = 0.5f;
+
     private enum State {
         WaitingToStart,
         Playing,
         GameOver,
+        Victory,
     }
     private State state;
 
@@ -21,19 +24,44 @@ public class GameStateManager : MonoBehaviour {
         state = State.WaitingToStart;
     }
 
+    private void Update() {
+        switch (state) {
+            case State.WaitingToStart:
+                waitingToStartTimer -= Time.deltaTime;
+                if (waitingToStartTimer < 0f) {
+                    state = State.Playing;
+
+                    OnStateChanged?.Invoke(this, EventArgs.Empty);
+                }
+                break;
+        }
+    }
+
     public bool IsWaitingToStart() {
         return state == State.WaitingToStart;
     }
     public bool IsPlaying() {
-        return state == State.WaitingToStart;
+        return state == State.Playing;
+    }
+    public bool IsGameOver() {
+        return state == State.GameOver;
+    }
+    public bool IsVictory() {
+        return state == State.Victory;
     }
 
-    public void EndGame() {
+
+    public void GameOver() {
         state = State.GameOver;
-        OnStateChanged?.Invoke(this, EventArgs.Empty);
-        //EndUI.Instance.gameObject.SetActive(true);
+        GameOverUI.Instance.gameObject.SetActive(true);
         Time.timeScale = 0f;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void Victory() {
+        state = State.Victory;
+        VictoryUI.Instance.UpdateText();
+        VictoryUI.Instance.gameObject.SetActive(true);
+        Time.timeScale = 0f;
     }
 
 }
