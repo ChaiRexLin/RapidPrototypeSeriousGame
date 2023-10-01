@@ -7,9 +7,9 @@ public class Billboard : MonoBehaviour {
     [SerializeField] private BillboardType billboardType;
 
     [Header("Lock Rotation")]
-    [SerializeField] private bool lockX;
-    [SerializeField] private bool lockY;
-    [SerializeField] private bool lockZ;
+    [SerializeField] private bool lockX = true;
+    [SerializeField] private bool lockY = false;
+    [SerializeField] private bool lockZ = true;
 
     private Vector3 originalRotation;
 
