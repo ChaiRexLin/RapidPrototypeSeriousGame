@@ -43,8 +43,8 @@ public class FearController : MonoBehaviour {
 
         }
         if (currentFear >= fearMax) {
-            Debug.Log("SPOOKED");
-            rb.AddForce(Vector3.up * 100);
+            //Debug.Log("SPOOKED");
+            rb.AddForce(Vector3.up * 5);
         }
     }
 
