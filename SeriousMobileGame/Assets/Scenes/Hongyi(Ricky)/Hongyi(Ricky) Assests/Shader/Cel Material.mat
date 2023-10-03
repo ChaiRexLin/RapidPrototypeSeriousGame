@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cel Material
-  m_Shader: {fileID: -6465566751694194690, guid: dc4e027f0c7775a4b8e0381c9b3ea42b,
+  m_Shader: {fileID: -6465566751694194690, guid: 960dd33df7984a6459c9797fe246cd82,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -17,7 +17,7 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 1950
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 9d65b1540bd55dc4ab02643e09524306, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5803a7cd377fea04dbb2916a5d373150, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -66,6 +66,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTexture2D:
+        m_Texture: {fileID: 2800000, guid: 8f1619039bb66aa48a6d1c9d40c94dd9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Shadow_Texture:
@@ -128,9 +132,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: 0
+    - _QueueOffset: -50
     - _ReceiveShadows: 1
-    - _ShadowStep: 0.401
+    - _ShadowStep: 0.48
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
@@ -148,9 +152,13 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowTexttureTiling: {r: 3.1, g: 27.3, b: 0, a: 0}
-    - _Shadow_Color: {r: 0, g: 0.99385786, b: 1, a: 0}
-    - _Shadow_Pattern_Color: {r: 0.7783208, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColor: {r: 1, g: 0, b: 0, a: 0}
+    - _ShadowPatternColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowTexttureTiling: {r: 23.4, g: 41.6, b: 0, a: 0}
+    - _ShadowTextureTiling: {r: 28.25, g: -25, b: 0, a: 0}
+    - _Shadow_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_Pattern_Color: {r: 0.7081781, g: 0.054957304, b: 0.8962264, a: 0}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
