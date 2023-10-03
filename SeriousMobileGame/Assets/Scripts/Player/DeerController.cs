@@ -39,6 +39,7 @@ public class DeerController : MonoBehaviour
             if (jumpTimer < jumpCooldown)
             {
                 jumpTimer += Time.deltaTime;
+                return;
             }
 
             // touch
@@ -86,7 +87,7 @@ public class DeerController : MonoBehaviour
                 for (int i = 0; i < Input.touchCount; i++)
                 {
                     Touch jumpTouch = Input.GetTouch(i);
-                    if (jumpTouch.position.x / Screen.width < .8f && jumpTimer > jumpCooldown)
+                    if (jumpTouch.position.x / Screen.width < .8f)
                     {
                         if (jumpTouch.phase == TouchPhase.Began)
                         {

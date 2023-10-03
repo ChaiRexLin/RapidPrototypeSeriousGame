@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1482563189814101960
+--- !u!114 &-5752140132503853963
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: cel test 6
+  m_Name: Cel 2
   m_Shader: {fileID: -6465566751694194690, guid: dc4e027f0c7775a4b8e0381c9b3ea42b,
     type: 3}
   m_Parent: {fileID: 0}
@@ -30,7 +30,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 1950
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 62f1cf1e89bfa004ab34ab34e42f73c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -81,12 +81,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ShadowTexture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Shadow_Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8f1619039bb66aa48a6d1c9d40c94dd9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -128,9 +124,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
-    - _QueueOffset: -50
+    - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ShadowStep: 0.026
+    - _ShadowStep: 0.124
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -141,14 +137,10 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.2748754, g: 0.3997496, b: 0.8207547, a: 1}
+    - _Color: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.8396226, g: 0.027723404, b: 0.027723404, a: 0}
-    - _ShadowColor: {r: 0.8113208, g: 0.07271269, b: 0.07271269, a: 0}
-    - _ShadowPatternColor: {r: 1, g: 0, b: 0.23511362, a: 0}
-    - _ShadowTexttureTiling: {r: 22.34, g: 30.43, b: 0, a: 0}
-    - _ShadowTextureTiling: {r: 7.04, g: 14.31, b: 0, a: 0}
-    - _Shadow_Color: {r: 0.0148795685, g: 0, b: 0.9150943, a: 0}
+    - _ShadowTexttureTiling: {r: 1.1, g: 33.26, b: 0, a: 0}
+    - _Shadow_Color: {r: 0.3301887, g: 0, b: 0, a: 0}
     - _Shadow_Pattern_Color: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
