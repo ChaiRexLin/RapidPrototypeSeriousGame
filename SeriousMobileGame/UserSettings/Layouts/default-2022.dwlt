@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 63
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 119
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 62
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3214,7 +3214,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 127}
     m_SelectedIDs: 26750000
     m_LastClickedID: 29990
-    m_ExpandedIDs: 00000000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000
+    m_ExpandedIDs: 000000004c7900004e7900005079000052790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3242,7 +3242,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000
+    m_ExpandedIDs: 000000004c7900004e7900005079000052790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3335,10 +3335,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1040}
-      m_SelectedIDs: d07afdff
-      m_LastClickedID: -165168
-      m_ExpandedIDs: 7675fdff7875fdff3e76fdff4076fdff5277fdff5477fdff7e79fdffaa79fdffae79fdffb079fdffec7afdffee7afdff2c7bfdff307bfdffd07bfdffd27bfdff647cfdff687cfdffc27cfdffc67cfdffc87cfdff447efdff487efdff007ffdffc481fdff5aa8fdff5ca8fdff70b4fdff20fbffff2efbffff5e730000ce7300008c790000b07a0000207b0000287b0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 34eaffff
+      m_LastClickedID: -5580
+      m_ExpandedIDs: 94f2ffffdc7500004c760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3745,9 +3745,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -93.509605, y: 21.34353, z: 66.48283}
+    m_Target: {x: -66.81705, y: 3.1444492, z: 60.46071}
     speed: 2
-    m_Value: {x: -93.509605, y: 21.34353, z: 66.48283}
+    m_Value: {x: -66.81705, y: 3.1444492, z: 60.46071}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3785,7 +3785,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -3793,13 +3793,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.118316576, y: -0.8566888, z: 0.22605251, w: -0.44827184}
+    m_Target: {x: -0.2103053, y: 0.12819505, z: -0.02840565, w: -0.9685053}
     speed: 2
-    m_Value: {x: -0.117979616, y: -0.8573766, z: 0.22623405, w: -0.44699484}
+    m_Value: {x: -0.21040326, y: 0.12677562, z: -0.028097583, w: -0.9689525}
   m_Size:
-    m_Target: 10.501469
+    m_Target: 9.85751
     speed: 2
-    m_Value: 10.0492525
+    m_Value: 10.501469
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3978,7 +3978,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Adaptive Performance/Art/Meshes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -3986,30 +3986,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Adaptive Performance/Art/Meshes
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\u1271027\Documents\GitHub\RapidPrototypeSeriousGame\SeriousMobileGame
+  m_LastProjectPath: C:\Users\u1195761\Documents\GitHub\RapidPrototypeSeriousGame\SeriousMobileGame
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 360}
-    m_SelectedIDs: 106d0000
-    m_LastClickedID: 27920
-    m_ExpandedIDs: 00000000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b00001c6d0000ee92000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 62}
+    m_SelectedIDs: 4c790000
+    m_LastClickedID: 31052
+    m_ExpandedIDs: 000000004c7900004e790000507900005279000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Shaders
-      m_OriginalName: Shaders
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27922
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_SearchString: 
@@ -4023,7 +4023,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000766b0000786b00007a6b00007c6b00007e6b0000806b0000826b0000
+    m_ExpandedIDs: 000000004c7900004e7900005079000052790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4178,7 +4178,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_SimulatorState:
     controlPanelVisible: 0
-    controlPanelWidth: 0
+    controlPanelWidth: NaN
     controlPanelFoldoutKeys:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceUIExtension
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
@@ -4189,7 +4189,7 @@ MonoBehaviour:
     pluginStates:
     - '{"m_SerializationStates":{"thermalFoldout":false,"performanceFoldout":false,"developerFoldout":false,"indexerFoldout":false,"scalersFoldout":false,"deviceSettingsFoldout":false}}'
     - '{}'
-    scale: 37
+    scale: 10
     fitToScreenEnabled: 1
     rotationDegree: 270
     highlightSafeAreaEnabled: 0
