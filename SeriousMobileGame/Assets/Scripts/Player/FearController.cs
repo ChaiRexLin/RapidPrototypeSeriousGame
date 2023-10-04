@@ -23,6 +23,7 @@ public class FearController : MonoBehaviour {
 
     private void Start() {
         Instance = this;
+        currentFear = 0f;
     }
 
     private void FixedUpdate() {
@@ -46,11 +47,16 @@ public class FearController : MonoBehaviour {
             //Debug.Log("SPOOKED");
             rb.AddForce(Vector3.up * 5);
         }
+        Debug.Log(currentFear);
     }
 
     private void Update() {
         if (amountOfHumans != 0) { return; }
         currentFear -= fearLoss * Time.deltaTime;
+        if (currentFear < 0f)
+        {
+            currentFear = 0f;
+        }
     }
 
     public float GetNormalizedFear() {

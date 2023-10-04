@@ -17,6 +17,7 @@ public class CarMovement : MonoBehaviour
     [SerializeField] private float slowRate = 20f;
     [SerializeField] private float acceleRate = 15f;
     [SerializeField] private float slowDuration = 1f;
+    [SerializeField] private float detectRadius = 2f;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +33,7 @@ public class CarMovement : MonoBehaviour
     {
         RaycastHit hit;
         Debug.DrawRay(transform.position, transform.forward * detectDistance, Color.yellow);
-        if (Physics.Raycast(transform.position, transform.forward, out hit, detectDistance, mask))
+        if (Physics.SphereCast(transform.position, detectRadius, transform.forward, out hit, detectDistance, mask))
         {
             slowTimer = slowDuration;
             curSpeed -= slowRate * Time.deltaTime;
