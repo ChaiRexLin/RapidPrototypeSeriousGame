@@ -16,6 +16,7 @@ public class Loader : MonoBehaviour {
         Loader.targetScene = targetScene;
 
         SceneManager.LoadScene(Scene.LoadingScene.ToString());
+        Debug.Log("Load Scene");
     }
 
     public static void LoaderCallback() {
