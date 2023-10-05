@@ -13,14 +13,18 @@ public class FoodBase : MonoBehaviour {
 
     private float foodTimer = 0f;
     private int foodCount = 0;
-    private bool isEating = false;
+    public bool isEating = false;
     
 
 
     private void Update() {
+        foodTimer += Time.deltaTime;
         if (foodCount >= foodMax) { return; }
 
         if (!isEating) { return; }
+        isEating = false;
+
+        if (ScoreManager.Instance.IsFoodFull()) { return; }
 
         if (foodTimer > foodCooldown) {
             ScoreManager.Instance.AddToFood(foodAmount);
@@ -31,21 +35,6 @@ public class FoodBase : MonoBehaviour {
             }
             foodTimer = 0f;
             return;
-        }
-
-        foodTimer += Time.deltaTime;
-    }
-
-
-    private void OnTriggerEnter(Collider collider) {
-        if (collider.gameObject.layer == LayerMask.NameToLayer("Player")) {
-            isEating = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider collider) {
-        if (collider.gameObject.layer == LayerMask.NameToLayer("Player")) {
-            isEating = false;
         }
     }
 }
