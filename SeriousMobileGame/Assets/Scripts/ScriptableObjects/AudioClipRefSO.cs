@@ -2,8 +2,12 @@ using UnityEngine;
 
 [CreateAssetMenu()]
 public class AudioClipRefSO : ScriptableObject {
-    public AudioClip[] footstep;
+    public AudioClip[] footsteps;
+    public AudioClip[] eating;
+    public AudioClip[] rustling;
 
     public AudioClip[] gameOver;
+    public AudioClip[] victory;
+
 
 }

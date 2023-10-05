@@ -8,7 +8,6 @@ public class FoodBase : MonoBehaviour {
     [SerializeField] private int foodMax = 5;
     [SerializeField] private float foodCooldown = 1f;
 
-    //[SerializeField] private Sprite depleatedSprite;
     [SerializeField] private Sprite emptySprite;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
@@ -25,6 +24,7 @@ public class FoodBase : MonoBehaviour {
 
         if (foodTimer > foodCooldown) {
             ScoreManager.Instance.AddToFood(foodAmount);
+            SoundManager.Instance.SoundEating(transform.position);
             foodCount += foodAmount;
             if (foodCount >= foodMax) { 
                 spriteRenderer.sprite = emptySprite; 
