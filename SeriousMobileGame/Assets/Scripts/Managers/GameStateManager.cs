@@ -54,6 +54,7 @@ public class GameStateManager : MonoBehaviour {
     public void GameOver() {
         state = State.GameOver;
         GameOverUI.Instance.gameObject.SetActive(true);
+        SoundManager.Instance.SoundGameOver(Camera.main.transform.position);
         Time.timeScale = 0f;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -61,6 +62,7 @@ public class GameStateManager : MonoBehaviour {
         state = State.Victory;
         VictoryUI.Instance.UpdateText();
         VictoryUI.Instance.gameObject.SetActive(true);
+        SoundManager.Instance.SoundVictory(Camera.main.transform.position);
         Time.timeScale = 0f;
     }
 

@@ -341,6 +341,7 @@ MonoBehaviour:
   slowRate: 20
   acceleRate: 15
   slowDuration: 1
+  detectRadius: 1
 --- !u!65 &582263724921759446
 BoxCollider:
   m_ObjectHideFlags: 0
