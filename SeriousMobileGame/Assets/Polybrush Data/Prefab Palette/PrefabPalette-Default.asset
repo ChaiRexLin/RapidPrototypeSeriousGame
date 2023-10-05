@@ -16,7 +16,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1270710048817823777, guid: 69ffdc4683d3b8342b8f76e243262f87,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 91.35413
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -33,7 +33,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1270710048817823777, guid: 177699aa8e03d664f92dd8182b47db57,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 95.154526
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -50,7 +50,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1270710048817823777, guid: a221c1097b74a214f97e1a08d27992ef,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 77.00768
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -67,7 +67,7 @@ MonoBehaviour:
   - gameObject: {fileID: 1270710048817823777, guid: ae7504ea2fa35b84690704ae9d563c5d,
       type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 75.2975
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -81,3 +81,37 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: flower 3
+  - gameObject: {fileID: 4329718170564061167, guid: 1bfdac74870ab124bb3e85b34216c8d8,
+      type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: BerryBush2D
+  - gameObject: {fileID: 4329718170564061167, guid: a968c8110a8bc634494df92cf3b11044,
+      type: 3}
+    settings:
+      m_Strength: 91.35413
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: BerryBush2D 2
