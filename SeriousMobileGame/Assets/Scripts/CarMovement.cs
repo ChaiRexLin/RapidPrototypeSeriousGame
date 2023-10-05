@@ -24,7 +24,7 @@ public class CarMovement : MonoBehaviour
     {
         int player = 1 << LayerMask.NameToLayer("Player");
         int car = 1 << LayerMask.NameToLayer("Car");
-        mask = player | car;
+        mask = car;
         curSpeed = carSpeed;
     }
 
