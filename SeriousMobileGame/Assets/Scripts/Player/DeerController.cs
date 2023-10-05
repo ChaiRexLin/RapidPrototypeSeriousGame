@@ -20,6 +20,8 @@ public class DeerController : MonoBehaviour {
     public bool isMoving = false;
 
     public bool isActive = true;
+    public float moveValue = 0;
+
 
     private float tilt;
     private float jumpTimer = 0f;
@@ -55,6 +57,8 @@ public class DeerController : MonoBehaviour {
             //Debug.Log(touchPositionNormalized.y - 0.15f);
 
             if (touchPositionNormalized.x > .8f) {
+                moveValue = touchPositionNormalized.y - 0.15f;
+
                 Vector3 movement = transform.forward * movementSpeed * movementMultiplier * (touchPositionNormalized.y - 0.15f) * 2 * Time.deltaTime;
 
                 deerRigidBody.MovePosition(deerRigidBody.position + movement);
