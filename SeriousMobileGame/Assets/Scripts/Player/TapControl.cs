@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -34,8 +35,16 @@ public class TapControl : MonoBehaviour
                         Ray ray = Camera.main.ScreenPointToRay(rayTouch.position);
                         RaycastHit hit;
                         if (Physics.Raycast(ray, out hit, eatRange))
-                        {
-                            hit.transform.GetComponent<FoodBase>().isEating = true;
+                        {   
+                            try
+                            {
+                                hit.transform.GetComponent<FoodBase>().isEating = true;
+                            }
+                            catch (Exception e)
+                            {
+                                return;
+                            }
+
                         }
                     }
                 }

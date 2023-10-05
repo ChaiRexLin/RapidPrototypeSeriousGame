@@ -7,7 +7,7 @@ public class SoundManager : MonoBehaviour {
 
     [SerializeField] private AudioClipRefSO audioClipRefsSO;
 
-    private float volume = 0.5f;
+    private float volume = 10f;
 
     private void Awake() {
         Instance = this;

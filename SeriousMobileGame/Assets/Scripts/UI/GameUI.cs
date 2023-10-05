@@ -17,7 +17,7 @@ public class GameUI : MonoBehaviour {
         int seconds = (int)ScoreManager.Instance.Timer - (minutes * 60);
         timerText.text = minutes.ToString("D1") + ":" + seconds.ToString("D2"); ;
 
-        fearSlider.value = FearController.Instance.GetNormalizedFear();
+        fearSlider.value = 0f;
 
         ScoreManager.Instance.OnFoodChange += ScoreManager_OnFoodChange;
     }
