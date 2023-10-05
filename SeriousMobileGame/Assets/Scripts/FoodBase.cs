@@ -25,6 +25,7 @@ public class FoodBase : MonoBehaviour {
 
         if (foodTimer > foodCooldown) {
             ScoreManager.Instance.AddToFood(foodAmount);
+            SoundManager.Instance.SoundEating(transform.position);
             foodCount += foodAmount;
             if (foodCount >= foodMax) { 
                 spriteRenderer.color = depleatedColor; 

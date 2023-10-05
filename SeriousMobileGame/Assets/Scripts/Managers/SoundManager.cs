@@ -16,7 +16,17 @@ public class SoundManager : MonoBehaviour {
     }
 
     //========================================================================================
+
     public void SoundGameOver(Vector3 position) {
+        PlaySound(audioClipRefsSO.gameOver, position);
+    }
+    public void SoundEating(Vector3 position) {
+        PlaySound(audioClipRefsSO.eating, position);
+    }
+    public void SoundFootsteps(Vector3 position) {
+        PlaySound(audioClipRefsSO.gameOver, position);
+    }
+    public void SoundRustling(Vector3 position) {
         PlaySound(audioClipRefsSO.gameOver, position);
     }
     //========================================================================================
