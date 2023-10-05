@@ -17,7 +17,7 @@ public class CarMovement : MonoBehaviour
     [SerializeField] private float slowRate = 20f;
     [SerializeField] private float acceleRate = 15f;
     [SerializeField] private float slowDuration = 1f;
-    [SerializeField] private float detectRadius = 2f;
+    [SerializeField] private float detectRadius = 1f;
 
     // Start is called before the first frame update
     void Start()

@@ -7,7 +7,7 @@ public class DeerController : MonoBehaviour
     {
 
 
-        [SerializeField] private float movementSpeed = 10f;
+        [SerializeField] private float movementSpeed = 6f;
         [SerializeField] private float rotationSpeed = 180f;
         [SerializeField] private float jumpPower = 250f;
         [SerializeField] private float foliageMovementMultiplier = 0.8f;
@@ -51,7 +51,7 @@ public class DeerController : MonoBehaviour
 
                 if (touchPositionNormalized.x > .8f)
                 {
-                    Vector3 movement = transform.forward * movementSpeed * movementMultiplier * (touchPositionNormalized.y - 0.15f) * 2 * Time.deltaTime;
+                    Vector3 movement = transform.forward * movementSpeed * movementMultiplier * (touchPositionNormalized.y - 0.2f) * 2 * Time.deltaTime;
 
                     deerRigidBody.MovePosition(deerRigidBody.position + movement);
                 }
@@ -74,7 +74,7 @@ public class DeerController : MonoBehaviour
 
                             if (Physics.Raycast(ray, out hit, 10))
                             {
-                                Debug.Log(hit.transform.name);
+                                //Debug.Log(hit.transform.name);
                             }
                         }
                     }

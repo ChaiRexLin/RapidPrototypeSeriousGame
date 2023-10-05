@@ -18,7 +18,7 @@ public class LightEffect : MonoBehaviour
     private Transform Car;
     private float min_opacity = 0.1f;
     private float max_opacity = 0.8f;
-    private float opacity_multiplier = 0.01f;
+    private float opacity_multiplier = 0.04f;
 
     private void Start()
     {

@@ -47,7 +47,6 @@ public class FearController : MonoBehaviour {
             //Debug.Log("SPOOKED");
             rb.AddForce(Vector3.up * 5);
         }
-        Debug.Log(currentFear);
     }
 
     private void Update() {
